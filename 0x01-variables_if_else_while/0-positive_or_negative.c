@@ -26,6 +26,5 @@ else
 {
 	printf("%d is negaive\n" n);
 }
-return (0);	
-}
+return (0);	}
 
