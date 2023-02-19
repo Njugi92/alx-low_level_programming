@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - print all strings from 0 to 9
+ * main - prints all base 10 numbers
  * Return: 0 (success)
  */
 int main(void)
 {
-	int num;
+	int x;
 
-	for (num = 0; num <= 10; num++)
-		printf("%d", num);
-	printf("\n");
-
+	for (x = 0; x < 10; x++)
+	printf("%d", x);
+	putchar('\n');
 	return (0);
 }
