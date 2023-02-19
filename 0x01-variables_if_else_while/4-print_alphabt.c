@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - print alphabets except q and e
+ * main - Entry point
  * Return: 0 (success)
  */
 int main(void)
 {
-	char f;
+	char c;
 
-	for (f = 'a'; f <= 'z'; f++)
+	c = 'a';
+	while (c <= 'z')
 	{
-	if (f != 'e' && f != 'q')
-		putchar(f);
+	if (c != 'q' && c != 'e')
+		putchar(c);
+	c++;
 	}
 	putchar('\n');
 	return (0);
