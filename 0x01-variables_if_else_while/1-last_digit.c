@@ -20,7 +20,7 @@ int main(void)
 	}
 	else if (lastd == 0)
 	{
-	pintf("last digit of %d is %d and is 0\n", n, lastd);
+	printf("last digit of %d is %d and is 0\n", n, lastd);
 	}
 	else if (lastd < 6 && lastd != 0)
 	{
