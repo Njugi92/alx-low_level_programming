@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - print all combination of single digits
- * Return: 0 (success)]
+ * main - Entry point
+ * Return: 0 (success)
  */
 int main(void)
 {
-	int n;
+	int x;
 
-	for (n = 48; n < 58; n++)
+	for (x = 0; x < 10; x++)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(x + '0');
+		if (x < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+	}
 	putchar('\n');
 	return (0);
-}
 }
