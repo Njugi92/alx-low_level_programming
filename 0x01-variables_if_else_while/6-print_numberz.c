@@ -1,15 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints base 10 numbers
+ * main - Entry point
  * Return: 0 (success)
  */
 int main(void)
 {
-	int p;
+	int c;
 
-	for (p = 0; p < 10; p++)
-	putchar((%d), p);
+	c = 0;
+	while (c < 10)
+	{
+		putchar(c + '0');
+		c++;
+	}
 	putchar('\n');
 	return (0);
 }
