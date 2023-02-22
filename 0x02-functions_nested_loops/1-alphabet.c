@@ -3,6 +3,7 @@
 
 /***
  * print_alphabet - make the alphabet
+ * Description: print all the alphabets
  * Return: void
  */
 
