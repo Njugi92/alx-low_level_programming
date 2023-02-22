@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /***
- * main - prints the first 52 fibonocci numbers
+ * main - prints the first 52 fibanocci numbers
  * Return: nothing!
  */
 
