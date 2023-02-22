@@ -1,9 +1,7 @@
 #include "main.h"
 
-
-/***
- * print_alphabet - make the alphabet
- * Description: print all the alphabets
+/**
+ * print_alphabet - make alphabet
  * Return: void
  */
 
