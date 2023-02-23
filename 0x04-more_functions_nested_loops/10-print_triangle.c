@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_tiangle - prints triangle of squares according parameters
- * @size: The size of squares triangle
+ * print_triangle - print n tringle squares according n number of times
+ * @size: the number of triangle squares/number of times
  * Return: empty
  */
 
