@@ -1,4 +1,4 @@
-#include <function_pointers.h>
+#include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
@@ -16,7 +16,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 
 	if (argc != 4)
 	{
-		pintf("Error\n");
+		printf("Error\n");
 		exit(98);
 	}
 
