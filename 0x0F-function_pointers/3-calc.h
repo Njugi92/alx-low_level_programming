@@ -5,7 +5,7 @@
  * @op: the operator
  * @f: the associated function
  */
-typedef op
+typedef struct op
 {
 	char *op;
 	int (*f)(int a, int b);
