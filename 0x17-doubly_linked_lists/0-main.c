@@ -5,6 +5,7 @@
 
 /**
  * main - check the code
+ * dlistint - ***
  *
  * Return: Always EXIT_SUCCESS.
  */
