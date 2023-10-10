@@ -13,9 +13,9 @@
  */
 typedef struct listint_s
 {
-	int n;
-	size_t index;
-	struct listint_s *next;
+	int n; /* integer stored at the node */
+	size_t index; /* Index of node in list */
+	struct listint_s *next; /* Pointer to next node */
 } listint_t;
 
 /**
@@ -32,8 +32,8 @@ typedef struct skiplist_s
 {
 	int n;
 	size_t index;
-	struct skiplist_s *next;
-	struct skiplist_s *express;
+	struct skiplist_s *next; /* pointer to next node */
+	struct skiplist_s *express; /*pointer to next node in express lane*/
 } skiplist_t;
 
 int linear_search(int *array, size_t size, int value);
