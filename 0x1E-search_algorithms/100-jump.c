@@ -6,7 +6,8 @@
  * an array of integers using jump search algorithm
  * @array: The input array
  * @value: The value to search for
- * @Return: The index of the number
+ * @size: size of the array
+ * Return: The index of the number
  */
 int jump_search(int *array, size_t size, int value)
 {
@@ -21,7 +22,6 @@ int jump_search(int *array, size_t size, int value)
 
 	do {
 		printf("Value checked array[%d] = [%d]\n", index, array[index]);
-		
 		if (array[index] == value)
 			return (index);
 		k++;
