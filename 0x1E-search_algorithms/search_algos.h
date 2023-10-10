@@ -5,12 +5,11 @@
 #include <stdlib.h>
 
 /**
- * struct listint-s - The singly linked list node
+ * struct listint_s - The singly linked list node
  * structure
  * @n: Integer
  * @index: The index of the node in the list
  * @next: Pointer to the next node
- * 
  * Description:
  * This structure defines a node for a singly linked list. It cont
  * ains an integer value, an index indicating its position in the list, and a
